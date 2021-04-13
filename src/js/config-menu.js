@@ -2,14 +2,14 @@ const menuDefinition = [
 	{
 		name: 'File',
 		children: [
-			{
+/*			{
 				name: 'New',
 				target: 'file/new.new'
-			},
-			{
+			},				*/
+/*			{
 				divider: true
-			},
-			{
+			},				*/
+/*			{
 				name: 'Open',
 				children: [
 					{
@@ -42,21 +42,21 @@ const menuDefinition = [
 						target: 'file/open.open_template_test'
 					}
 				]
-			},
-			{
+			},				*/
+/*			{
 				name: 'Search Images',
 				ellipsis: true,
 				target: 'file/open.search'
-			},
-			{
+			},				*/
+/*			{
 				divider: true
-			},
-			{
+			},				*/
+/*			{
 				name: 'Export',
 				ellipsis: true,
 				shortcut: 'S',
 				target: 'file/save.export'
-			},
+			},				*/
 			{
 				name: 'Save As',
 				ellipsis: true,
@@ -67,25 +67,25 @@ const menuDefinition = [
 				ellipsis: true,
 				target: 'file/save.save_data_url'
 			},
-			{
+/*			{
 				name: 'Print',
 				ellipsis: true,
 				shortcut: 'Ctrl-P',
 				target: 'file/print.print'
-			},
-			{
+			},				*/
+/*			{
 				divider: true
-			},
-			{
+			},				*/
+/*			{
 				name: 'Quick Save',
 				shortcut: 'F9',
 				target: 'file/quicksave.quicksave'
-			},
-			{
+			},				*/
+/*			{
 				name: 'Quick Load',
 				shortcut: 'F10',
 				target: 'file/quickload.quickload'
-			}
+			}				*/
 		]
 	},
 	{
@@ -100,11 +100,11 @@ const menuDefinition = [
 				name: 'Redo',
 				shortcut: 'Ctrl+Y',
 				target: 'edit/redo.redo'
-			},
-			{
+			}
+/*			{
 				divider: true
-			},
-			{
+			},				*/
+/*			{
 				name: 'Delete Selection',
 				shortcut: 'Del',
 				target: 'edit/selection.delete'
@@ -130,10 +130,10 @@ const menuDefinition = [
 				name: 'Select All',
 				shortcut: 'Ctrl+A',
 				target: 'edit/selection.select_all'
-			}
+			}				*/
 		]
-	},
-	{
+	}
+/*	{
 		name: 'View',
 		children: [
 			{
@@ -722,7 +722,7 @@ const menuDefinition = [
 				target: 'help/about.about'
 			}
 		]
-	}
+	}*/
 ];
 
 

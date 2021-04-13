@@ -30,9 +30,7 @@ config.ruler_active = false;
 
 //requires styles in reset.css
 config.themes = [
-	'dark',
 	'light',
-	'green',
 ];
 
 //no-translate BEGIN
@@ -97,33 +95,6 @@ config.TOOLS = [
 		},
 	},
 	{
-		name: 'pencil',
-	},
-	{
-		name: 'pick_color',
-		attributes: {
-			global: false,
-		},
-	},
-	{
-		name: 'erase',
-		on_update: 'on_params_update',
-		attributes: {
-			size: 30,
-			circle: true,
-			strict: true,
-		},
-	},
-	{
-		name: 'magic_erase',
-		title: 'Magic Eraser Tool',
-		attributes: {
-			power: 15,
-			anti_aliasing: true,
-			contiguous: false,
-		},
-	},
-	{
 		name: 'fill',
 		attributes: {
 			power: 5,
@@ -179,14 +150,6 @@ config.TOOLS = [
 			border_color: '#555555',
 			fill_color: '#aaaaaa',
 			circle: false,
-		},
-	},
-	{
-		name: 'media',
-		title: 'Search Images',
-		on_activate: 'on_activate',
-		attributes: {
-			size: 30,
 		},
 	},
 	{
@@ -382,71 +345,11 @@ config.TOOLS = [
 		},
 	},
 	{
-		name: 'gradient',
-		attributes: {
-			color_1: '#008000',
-			color_2: '#ffffff',
-			alpha: 0,
-			radial: false,
-			radial_power: 50,
-		},
-	},
-	{
-		name: 'clone',
-		attributes: {
-			size: 30,
-			anti_aliasing: true,
-			source_layer: {
-				value: 'Current',
-				values: ['Current', 'Previous'],
-			},
-		},
-	},
-	{
 		name: 'crop',
 		on_update: 'on_params_update',
 		on_leave: 'on_leave',
 		attributes: {
 			crop: true,
-		},
-	},
-	{
-		name: 'blur',
-		attributes: {
-			size: 30,
-			strength: 1,
-		},
-	},
-	{
-		name: 'sharpen',
-		attributes: {
-			size: 30,
-		},
-	},
-	{
-		name: 'desaturate',
-		attributes: {
-			size: 50,
-			anti_aliasing: true,
-		},
-	},
-	{
-		name: 'bulge_pinch',
-		title: 'Bulge/Pinch Tool',
-		attributes: {
-			radius: 80,
-			power: 50,
-			bulge: true,
-		},
-	},
-	{
-		name: 'animation',
-		on_activate: 'on_activate',
-		on_update: 'on_params_update',
-		on_leave: 'on_leave',
-		attributes: {
-			play: false,
-			delay: 400,
 		},
 	},
 ];
